@@ -1,22 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-// import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'levels',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
-  {
-    path: 'levels',
-    loadChildren: () =>
-      import('./level-module/pages/levels-page/level.module').then((m) => m.LevelsModule),
-  },
-  {
-    path: '**',
-    redirectTo: 'levels',
-  },
+  // {
+  //   path: 'levels',
+  //   loadChildren: () =>
+  //     import('./levels-module/pages/levels-page/levels.module').then((m) => m.LevelsModule),
+  // },
+  // {
+  //   path: 'missions',
+  //   loadChildren: () =>
+  //     import('./missions-module/pages/missions-page/missions.module').then((m) => m.MissionsModule),
+  // },
+  // {
+  //   path: '**',
+  //   redirectTo: 'home',
+  // },
 ];
 
 @NgModule({

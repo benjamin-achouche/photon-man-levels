@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomeComponent } from './home-module/components/home.component';
+import { MissionsPageComponent } from './missions-module/pages/missions-page/missions-page.component';
 
 const routes: Routes = [
   {
@@ -7,20 +9,23 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
-  // {
-  //   path: 'levels',
-  //   loadChildren: () =>
-  //     import('./levels-module/pages/levels-page/levels.module').then((m) => m.LevelsModule),
-  // },
-  // {
-  //   path: 'missions',
-  //   loadChildren: () =>
-  //     import('./missions-module/pages/missions-page/missions.module').then((m) => m.MissionsModule),
-  // },
-  // {
-  //   path: '**',
-  //   redirectTo: 'home',
-  // },
+  {
+    path: 'home',
+    component: HomeComponent
+  },
+  {
+    path: 'levels',
+    loadChildren: () =>
+      import('./levels-module/pages/levels-page/levels.module').then((m) => m.LevelsModule),
+  },
+  {
+    path: 'missions',
+    component: MissionsPageComponent
+  },
+  {
+    path: '**',
+    redirectTo: 'home',
+  },
 ];
 
 @NgModule({

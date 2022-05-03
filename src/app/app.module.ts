@@ -6,17 +6,17 @@ import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home-module/components/home.component';
-import { AppBootstrapModule } from './shared-module/app-bootstrap/app-bootstrap.module';
 import { PageNavigationComponent } from './navigation-module/page-navigation/page-navigation.component';
 import { SkillPointsComponent } from './shared-module/skill-points/skill-points.component';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppBootstrapModule } from './shared-module/app-bootstrap/app-bootstrap.module';
+import { HomeModule } from './home-module/home.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     PageNavigationComponent,
     SkillPointsComponent
   ],
@@ -24,6 +24,7 @@ import { SkillPointsComponent } from './shared-module/skill-points/skill-points.
     BrowserModule,
     AppRoutingModule,
     AppBootstrapModule,
+    HomeModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

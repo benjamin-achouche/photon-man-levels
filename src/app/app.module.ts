@@ -8,11 +8,17 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home-module/components/home.component';
 import { AppBootstrapModule } from './shared-module/app-bootstrap/app-bootstrap.module';
+import { PageNavigationComponent } from './navigation-module/page-navigation/page-navigation.component';
+import { SkillPointsComponent } from './shared-module/skill-points/skill-points.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
+    PageNavigationComponent,
+    SkillPointsComponent
   ],
   imports: [
     BrowserModule,

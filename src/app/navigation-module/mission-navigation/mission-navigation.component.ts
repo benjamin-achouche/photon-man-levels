@@ -5,8 +5,19 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './mission-navigation.component.html',
 })
 export class MissionNavigationComponent implements OnInit {
-
-  constructor() { }
+  missions: string[] = [
+    "Loomings",
+    "Rebel Yell",
+    "The Overmind",
+    "Enslavers",
+    "The Fall",
+    "The Stand",
+    "Zerg 2",
+    "Enslavers: Dark Vengeance",
+    "Wings of Liberty",
+    "Heart of the Swarm",
+    "Legacy of the Void"
+  ]
 
   ngOnInit(): void {
   }

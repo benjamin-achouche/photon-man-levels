@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home-module/components/home.component';
+import { HomePageComponent } from './home-module/pages/home-page/home-page.component';
 import { MissionsPageComponent } from './missions-module/pages/missions-page/missions-page.component';
 
 const routes: Routes = [
@@ -11,7 +11,7 @@ const routes: Routes = [
   },
   {
     path: 'home',
-    component: HomeComponent
+    component: HomePageComponent
   },
   {
     path: 'levels',

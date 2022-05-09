@@ -12,6 +12,7 @@ export class MissionNavigationComponent implements OnInit {
     "Enslavers",
     "The Fall",
     "The Stand",
+    "UED",
     "Zerg 2",
     "Enslavers: Dark Vengeance",
     "Wings of Liberty",

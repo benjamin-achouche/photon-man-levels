@@ -5,8 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './skill-points.component.html',
 })
 export class SkillPointsComponent implements OnInit {
-  availablePts: number = 25;
-  totalPts: number = 100
+  availablePts: number = 0;
+  totalPts: number = 0
 
   ngOnInit(): void {
   }

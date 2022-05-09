@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './mission-list.component.html',
 })
 export class MissionListComponent implements OnInit {
+  
 
   constructor() { }
 

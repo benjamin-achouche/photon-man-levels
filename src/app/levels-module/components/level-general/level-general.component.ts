@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ILevel, ILevelSkill } from '../../models/level.model';
+import { ILevelBasic } from '../../models/level.model';
 import { generalUpgrades } from './level-general.constant';
 
 @Component({
@@ -7,7 +7,7 @@ import { generalUpgrades } from './level-general.constant';
   templateUrl: './level-general.component.html',
 })
 export class LevelGeneralComponent implements OnInit {
-  generalUpgrades: (ILevel | ILevelSkill)[] = generalUpgrades;
+  generalUpgrades: ILevelBasic[] = generalUpgrades;
 
   ngOnInit(): void {
   }

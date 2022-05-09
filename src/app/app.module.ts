@@ -13,11 +13,13 @@ import { SkillPointsComponent } from './shared-module/skill-points/skill-points.
 import { AppRoutingModule } from './app-routing.module';
 import { AppBootstrapModule } from './shared-module/app-bootstrap/app-bootstrap.module';
 import { HomeModule } from './home-module/home.module';
+import { LevelsModule } from './levels-module/levels.module';
+import { MissionsModule } from './missions-module/missions.module';
+import { NavigationModule } from './navigation-module/navigation.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageNavigationComponent,
     SkillPointsComponent
   ],
   imports: [
@@ -25,6 +27,7 @@ import { HomeModule } from './home-module/home.module';
     AppRoutingModule,
     AppBootstrapModule,
     HomeModule,
+    NavigationModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {

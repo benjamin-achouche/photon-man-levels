@@ -16,7 +16,7 @@ const routes: Routes = [
   {
     path: 'levels',
     loadChildren: () =>
-      import('./levels-module/pages/levels-page/levels.module').then((m) => m.LevelsModule),
+      import('./levels-module/levels.module').then((m) => m.LevelsModule),
   },
   {
     path: 'missions',

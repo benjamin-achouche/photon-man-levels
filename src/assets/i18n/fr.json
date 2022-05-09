@@ -5,5 +5,83 @@
     "LaserTrooper": "Laser Trooper", 
     "NukeTrooper": "Nuke Trooper",
     "FinishedMissions": "Missions Terminées"
+  },
+  "Name": {
+    "GeneralUpgrades": {
+      "Vie": "Vie",
+      "Bouclier": "Bouclier",
+      "Energie": "Energie",
+      "RegenVie": "Régéneration de la Vie",
+      "RegenBouclier": "Régénération du Bouclier",
+      "RegenEnergie": "Régénération de l'Energie",
+      "Armure": "Armure",
+      "ArmureBouclier": "Armure du Bouclier",
+      "Vitesse": "Vitesse",
+      "Revive": "Rappeler le Photon Man",
+      "ModeSwap": "Changement d'équipement",
+      "Camouflage": "Camouflage"
+    },
+    "LaserTrooperUpgrades": {
+      "Degats": "Dégâts",
+      "Portee": "Portée",
+      "AttackSpeed": "Vitesse d'attaque",
+      "TirCharge": "Tir Chargé",
+      "G4Charges": "Charges de G-4",
+      "EMPX71": "Balle IEM X-71",
+      "BouclierPsi": "Bouclier Renforcé"
+    },
+    "NukeTrooperUpgrades": {
+      "Degats": "Dégâts",
+      "Portee": "Portée",
+      "AttackSpeed": "Vitesse d'attaque",
+      "MagazineSize": "Capacité du Chargeur",
+      "AmmoCost": "Coût des charges de plasma",
+      "ReloadSpeed": "Vitesse de rechargement",
+      "FlashbangCharges": "Nombre de grenades incapacitantes",
+      "FlashbangDuration": "Durée de l'étourdissement des grenades incapacitantes",
+      "Teleport": "Téléportation",
+      "Oculus": "Visière Oculus",
+      "NuclearStrike": "Frappe Nucléaire Tactique",
+      "SuperCamouflage": "Camouflage Indétectable"
+    }
+  },
+  "Description": {
+    "GeneralUpgrades": {
+      "Vie": "VieDesc",
+      "Bouclier": "BouclierDesc",
+      "Energie": "EnergieDesc",
+      "RegenVie": "Régéneration de la VieDesc",
+      "RegenBouclier": "Régénération du BouclierDesc",
+      "RegenEnergie": "Régénération de l'EnergieDesc",
+      "Armure": "ArmureDesc",
+      "ArmureBouclier": "Armure du BouclierDesc",
+      "Vitesse": "VitesseDesc",
+      "Revive": "Rappeler le Photon ManDesc",
+      "ModeSwap": "Changement d'équipementDesc",
+      "Camouflage": "CamouflageDesc"
+    },
+    "LaserTrooperUpgrades": {
+      "Degats": "DégâtsDesc",
+      "Portee": "PortéeDesc",
+      "AttackSpeed": "Vitesse d'attaqueDesc",
+      "TirCharge": "Tir ChargéDesc",
+      "G4Charges": "Charges de G-4Desc",
+      "EMPX71": "Balle IEM X-71Desc",
+      "BouclierPsi": "Bouclier RenforcéDesc"
+    },
+    "NukeTrooperUpgrades": {
+      "Degats": "DégâtsDesc",
+      "Portee": "PortéeDesc",
+      "AttackSpeed": "Vitesse d'attaqueDesc",
+      "MagazineSize": "Capacité du ChargeurDesc",
+      "AmmoCost": "Coût des charges de plasmaDesc",
+      "ReloadSpeed": "Vitesse de rechargementDesc",
+      "FlashbangCharges": "Nombre de grenades incapacitantesDesc",
+      "FlashbangDuration": "Durée de l'étourdissement des grenades incapacitantesDesc",
+      "Teleport": "TéléportationDesc",
+      "Oculus": "Visière OculusDesc",
+      "NuclearStrike": "Frappe Nucléaire TactiqueDesc",
+      "SuperCamouflage": "Camouflage IndétectableDesc"
+    }
   }
 }

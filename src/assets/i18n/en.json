@@ -5,5 +5,83 @@
     "LaserTrooper": "Laser Trooper",
     "NukeTrooper": "Nuke Trooper",
     "FinishedMissions": "Finished Missions"
+  },
+  "Name": {
+    "GeneralUpgrades": {
+      "Vie": "Health",
+      "Bouclier": "Shield",
+      "Energie": "Energy",
+      "RegenVie": "Health Regeneration",
+      "RegenBouclier": "Shield Regeneration",
+      "RegenEnergie": "Energy Regeneration",
+      "Armure": "Armor",
+      "ArmureBouclier": "Shield Armor",
+      "Vitesse": "Speed",
+      "Revive": "Call back the Photon Man",
+      "ModeSwap": "Suit change",
+      "Camouflage": "Cloak"
+    },
+    "LaserTrooperUpgrades": {
+      "Degats": "Damage",
+      "Portee": "Range",
+      "AttackSpeed": "Attack Speed",
+      "TirCharge": "Charged Shot",
+      "G4Charges": "G-4 Charges",
+      "EMPX71": "EMP X-71 Bullet",
+      "BouclierPsi": "Reinforced Shield"
+    },
+    "NukeTrooperUpgrades": {
+      "Degats": "Damage",
+      "Portee": "Range",
+      "AttackSpeed": "Attack Speed",
+      "MagazineSize": "Magazine Capacity",
+      "AmmoCost": "Plasma Rounds Cost",
+      "ReloadSpeed": "Reload Speed",
+      "FlashbangCharges": "Flashbang Grenades Quantity",
+      "FlashbangDuration": "Flashbang Grenades' Stun Duration",
+      "Teleport": "Teleportation",
+      "Oculus": "Oculus Visor",
+      "NuclearStrike": "Tactical Nuclear Strike",
+      "SuperCamouflage": "Undetectable Cloak"
+    }
+  },
+  "Description": {
+    "GeneralUpgrades": {
+      "Vie": "HealthDesc",
+      "Bouclier": "ShieldDesc",
+      "Energie": "EnergyDesc",
+      "RegenVie": "Health RegenerationDesc",
+      "RegenBouclier": "Shield RegenerationDesc",
+      "RegenEnergie": "Energy RegenerationDesc",
+      "Armure": "ArmorDesc",
+      "ArmureBouclier": "Shield ArmorDesc",
+      "Vitesse": "SpeedDesc",
+      "Revive": "Call back the Photon ManDesc",
+      "ModeSwap": "Suit changeDesc",
+      "Camouflage": "CloakDesc"
+    },
+    "LaserTrooperUpgrades": {
+      "Degats": "DamageDesc",
+      "Portee": "RangeDesc",
+      "AttackSpeed": "Attack SpeedDesc",
+      "TirCharge": "Charged ShotDesc",
+      "G4Charges": "G-4 ChargesDesc",
+      "EMPX71": "EMP X-71 BulletDesc",
+      "BouclierPsi": "Reinforced ShieldDesc"
+    },
+    "NukeTrooperUpgrades": {
+      "Degats": "DamageDesc",
+      "Portee": "RangeDesc",
+      "AttackSpeed": "Attack SpeedDesc",
+      "MagazineSize": "Magazine CapacityDesc",
+      "AmmoCost": "Plasma Rounds CostDesc",
+      "ReloadSpeed": "Reload SpeedDesc",
+      "FlashbangCharges": "Flashbang Grenades QuantityDesc",
+      "FlashbangDuration": "Flashbang Grenades' Stun DurationDesc",
+      "Teleport": "TeleportationDesc",
+      "Oculus": "Oculus VisorDesc",
+      "NuclearStrike": "Tactical Nuclear StrikeDesc",
+      "SuperCamouflage": "Undetectable CloakDesc"
+    }
   }
 }

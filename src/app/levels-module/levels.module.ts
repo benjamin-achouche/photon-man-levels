@@ -8,6 +8,10 @@ import { LevelsNukeTrooperPageComponent } from './pages/levels-page/levels-nuke-
 import { LevelGeneralComponent } from './components/level-general/level-general.component';
 import { LevelLaserTrooperComponent } from './components/level-laser-trooper/level-laser-trooper.component';
 import { LevelNukeTrooperComponent } from './components/level-nuke-trooper/level-nuke-trooper.component';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { HttpLoaderFactory } from '../app.module';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -18,10 +22,18 @@ import { LevelNukeTrooperComponent } from './components/level-nuke-trooper/level
     LevelsGeneralPageComponent,
     LevelsLaserTrooperPageComponent,
     LevelsNukeTrooperPageComponent,
+    // TranslateModule.forChild({
+    //   loader: {
+    //     provide: TranslateLoader,
+    //     useFactory: HttpLoaderFactory,
+    //     deps: [HttpClient]
+    //   }
+    // })
   ],
   imports: [
     CommonModule,
     LevelsRoutingModule,
+    RouterModule
   ]
 })
 export class LevelsModule { }

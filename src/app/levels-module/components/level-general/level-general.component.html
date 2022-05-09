@@ -1,6 +1,9 @@
-<div>
-  <div>
-    <img src="" alt="">
-    <p></p>
-  </div>
+<div class="page-PM">
+  <ng-container *ngFor="let upgrade of generalUpgrades">
+    <img [src]="upgrade.icon" [alt]="upgrade.name">
+    <div>
+      <h4>{{ upgrade.name}}</h4>
+      <p>{{ upgrade.description }}</p>
+    </div>
+  </ng-container>
 </div>

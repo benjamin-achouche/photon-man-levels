@@ -1,4 +1,6 @@
 export interface ILevel {
+  name: string;
+  description: string;
   ptsCosts: number[];
   icon: string;
 }

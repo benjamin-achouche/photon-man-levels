@@ -5,6 +5,7 @@ import { MissionItemComponent } from './components/missions/mission-item/mission
 import { MissionListComponent } from './components/missions/mission-list/mission-list.component';
 import { MissionsPageComponent } from './pages/missions-page/missions-page.component';
 import { NavigationModule } from '../navigation-module/navigation.module';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -14,8 +15,9 @@ import { NavigationModule } from '../navigation-module/navigation.module';
     MissionsPageComponent
   ],
   imports: [
+    RouterModule,
     CommonModule,
     NavigationModule
-  ]
+  ],
 })
 export class MissionsModule { }

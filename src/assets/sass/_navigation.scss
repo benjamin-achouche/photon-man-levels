@@ -1,7 +1,4 @@
-
-
 .footer-bottom {  
-  width: 100%;  
   padding: 16px 0;  
   display: flex;
   justify-content: center;
@@ -12,5 +9,19 @@
   p {
     margin: 0;
     font-size: 20px;
+    vertical-align: middle;
   }
+}
+
+.nav-PM {
+  position: fixed;
+  width: 100vw;
+}
+
+.top-nav-PM {
+  top: 0;
+}
+
+.bottom-nav-PM {
+  bottom: 0;
 }

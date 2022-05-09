@@ -1,12 +1,16 @@
 import { ILevelAbilityDetail, ILevelAbilityNotDefault, ILevelBasic } from "../../models/level.model";
 
 const degats: ILevelBasic = {
+  name: 'Name.LaserTrooperUpgrades.',
+  description: 'Description.LaserTrooperUpgrades.',
   values: [8, 9, 10, 12, 15, 18],
   ptsCosts: [0, 21, 32, 49, 67, 86],
   icon: '/assets/images/dummy_icon.png'
 }
 
 const portee: ILevelAbilityDetail = {
+  name: 'Name.LaserTrooperUpgrades.Portee',
+  description: 'Description.LaserTrooperUpgrades.Portee',
   values: [
     {range: 5, visibility: 8.5},
     {range: 5.5, visibility: 9},
@@ -20,12 +24,16 @@ const portee: ILevelAbilityDetail = {
 }
 
 const attackSpeed: ILevelBasic = {
+  name: 'Name.LaserTrooperUpgrades.AttackSpeed',
+  description: 'Description.LaserTrooperUpgrades.AttackSpeed',
   values: [0.3, 0.27, 0.24, 0.21, 0.18, 0.15],
   ptsCosts: [0, 21, 32, 49, 67, 86],
   icon: '/assets/images/dummy_icon.png'
 }
 
 const tirCharge: ILevelAbilityDetail = {
+  name: 'Name.LaserTrooperUpgrades.TirCharge',
+  description: 'Description.LaserTrooperUpgrades.TirCharge',
   values: [
     {energyCost: 30, damagePrimary: 80},
     {energyCost: 40, damagePrimary: 120},
@@ -36,6 +44,8 @@ const tirCharge: ILevelAbilityDetail = {
 }
 
 const G4Charges: ILevelAbilityNotDefault = {
+  name: 'Name.LaserTrooperUpgrades.G4Charges',
+  description: 'Description.LaserTrooperUpgrades.G4Charges',
   values: [
     false,
     {energyCost: 75, damagePrimary: 40, damageSecondary: 7, occurences: 16},
@@ -47,6 +57,8 @@ const G4Charges: ILevelAbilityNotDefault = {
 }
 
 const EMPX71: ILevelAbilityNotDefault = {
+  name: 'Name.LaserTrooperUpgrades.EMPX71',
+  description: 'Description.LaserTrooperUpgrades.EMPX71',
   values: [
     false,
     {energyCost: 25, cooldown: 10},
@@ -58,6 +70,8 @@ const EMPX71: ILevelAbilityNotDefault = {
 }
 
 const bouclierPsi: ILevelAbilityNotDefault = {
+  name: 'Name.LaserTrooperUpgrades.BouclierPsi',
+  description: 'Description.LaserTrooperUpgrades.BouclierPsi',
   values: [
     false,
     {energyCost: 75},

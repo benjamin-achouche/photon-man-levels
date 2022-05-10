@@ -20,7 +20,8 @@ const routes: Routes = [
   },
   {
     path: 'missions',
-    component: MissionsPageComponent
+    loadChildren: () =>
+      import('./missions-module/missions.module').then((m) => m.MissionsModule),
   },
   {
     path: '**',

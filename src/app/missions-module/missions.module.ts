@@ -6,6 +6,8 @@ import { MissionListComponent } from './components/missions/mission-list/mission
 import { MissionsPageComponent } from './pages/missions-page/missions-page.component';
 import { NavigationModule } from '../navigation-module/navigation.module';
 import { RouterModule } from '@angular/router';
+import { MissionsRoutingModule } from './missions-routing.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 @NgModule({
@@ -17,7 +19,12 @@ import { RouterModule } from '@angular/router';
   imports: [
     RouterModule,
     CommonModule,
-    NavigationModule
+    MissionsRoutingModule,
+    NavigationModule,
+    TranslateModule.forChild({
+      extend: true,
+      isolate: false,
+    })
   ],
 })
 export class MissionsModule { }

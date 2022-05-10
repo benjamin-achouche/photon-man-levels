@@ -83,5 +83,47 @@
       "NuclearStrike": "Tactical Nuclear StrikeDesc",
       "SuperCamouflage": "Undetectable CloakDesc"
     }
+  },
+  "Level": {
+    "Level": "Level",
+    "Description": {
+      "GeneralUpgrades": {
+        "Vie": "The Photon Man currently has {{ bonus }} health points.",
+        "Bouclier": "ShieldLevelDescription",
+        "Energie": "EnergyLevelDescription",
+        "RegenVie": "Health RegenerationLevelDescription",
+        "RegenBouclier": "Shield RegenerationLevelDescription",
+        "RegenEnergie": "Energy RegenerationLevelDescription",
+        "Armure": "ArmorLevelDescription",
+        "ArmureBouclier": "Shield ArmorLevelDescription",
+        "Vitesse": "SpeedLevelDescription",
+        "Revive": "Call back the Photon ManLevelDescription",
+        "ModeSwap": "Suit changeLevelDescription",
+        "Camouflage": "CloakLevelDescription"
+      },
+      "LaserTrooperUpgrades": {
+        "Degats": "DamageLevelDescription",
+        "Portee": "RangeLevelDescription",
+        "AttackSpeed": "Attack SpeedLevelDescription",
+        "TirCharge": "Charged ShotLevelDescription",
+        "G4Charges": "G-4 ChargesLevelDescription",
+        "EMPX71": "EMP X-71 BulletLevelDescription",
+        "BouclierPsi": "Reinforced ShieldLevelDescription"
+      },
+      "NukeTrooperUpgrades": {
+        "Degats": "DamageLevelDescription",
+        "Portee": "RangeLevelDescription",
+        "AttackSpeed": "Attack SpeedLevelDescription",
+        "MagazineSize": "Magazine CapacityLevelDescription",
+        "AmmoCost": "Plasma Rounds CostLevelDescription",
+        "ReloadSpeed": "Reload SpeedLevelDescription",
+        "FlashbangCharges": "Flashbang Grenades QuantityLevelDescription",
+        "FlashbangDuration": "Flashbang Grenades' Stun DurationLevelDescription",
+        "Teleport": "TeleportationLevelDescription",
+        "Oculus": "Oculus VisorLevelDescription",
+        "NuclearStrike": "Tactical Nuclear StrikeLevelDescription",
+        "SuperCamouflage": "Undetectable CloakLevelDescription"
+      }
+    }
   }
 }

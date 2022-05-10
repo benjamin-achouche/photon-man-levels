@@ -25,3 +25,12 @@
 .bottom-nav-PM {
   bottom: 0;
 }
+
+.mission-nav-PM {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 12vw;
+  top: 50px;
+  left: 0;
+}

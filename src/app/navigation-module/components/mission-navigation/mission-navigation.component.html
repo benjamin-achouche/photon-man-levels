@@ -1,39 +1,11 @@
-<!-- <!-- <nav class="navbar navbar-default">
+<nav>
   <div class="container-fluid">
     <div class="collapse navbar-collapse">
-      <ul *ngFor="let mission of missions" class="nav navbar-nav">
-        <li routerLinkActive="active">
-          {{ mission }}
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav mission-nav-PM">
         <li *ngFor="let mission of missions" routerLinkActive="active">
-          <a [routerLink]="'/levels/' + 'nuke'">{{ 'Nav.General' | translate }}</a>
+          <a [routerLink]="'/missions/' + mission.path">{{ mission.name | translate }}</a>
         </li>
-
-<!-- 
-        <li routerLinkActive="active">
-          <a routerLink="/levels/general">{{ 'Nav.General' | translate }}</a>
-        </li>
-        <li routerLinkActive="active">
-          <a routerLink="/levels/laser">{{ 'Nav.LaserTrooper' | translate }}</a>
-        </li>
-        <li routerLinkActive="active">
-          <a routerLink="/levels/nuke">{{ 'Nav.NukeTrooper' | translate }}</a>
-        </li> -->
-
-
-
       </ul>
     </div>
   </div>
-</nav> -->
-
-<p>HELOOIOJILHGKFUYKG</p>
+</nav>

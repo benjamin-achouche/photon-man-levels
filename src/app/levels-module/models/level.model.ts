@@ -1,15 +1,15 @@
 export interface ILevel {
   name: string;
   description: string;
+  levelDescription: string;
   ptsCosts: number[];
   icon: string;
-}
-
-export interface ILevelBasic extends ILevel {
-  values: (boolean | number)[];
+  currentLevel: number;
+  values: IAbilityDetail[];
 }
 
 export interface IAbilityDetail {
+  value?: number;
   energyCost?: number;
   range?: number;
   visibility?: number;
@@ -19,12 +19,4 @@ export interface IAbilityDetail {
   damageSecondary?: number;
   occurences?: number;
   special?: string;
-}
-
-export interface ILevelAbilityNotDefault extends ILevel {
-  values: (boolean | IAbilityDetail)[]
-}
-
-export interface ILevelAbilityDetail extends ILevel {
-  values: IAbilityDetail[];
 }

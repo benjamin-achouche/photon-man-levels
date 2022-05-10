@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { LevelsGeneralPageComponent } from './pages/levels-page/levels-general-page.component';
-import { LevelsLaserTrooperPageComponent } from './pages/levels-page/levels-laser-trooper-page.component';
-import { LevelsNukeTrooperPageComponent } from './pages/levels-page/levels-nuke-trooper-page.component';
+import { LevelsGeneralPageComponent } from './pages/levels-general-page/levels-general-page.component';
+import { LevelsLaserTrooperPageComponent } from './pages/levels-laser-trooper-page/levels-laser-trooper-page.component';
+import { LevelsNukeTrooperPageComponent } from './pages/levels-nuke-trooper-page/levels-nuke-trooper-page.component';
 
 const routes: Routes = [
   {

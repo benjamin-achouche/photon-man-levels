@@ -19,6 +19,8 @@
           <a routerLink="/levels/nuke">{{ 'Nav.NukeTrooper' | translate }}</a>
         </li>
       </ul>
+      <button (click)="useLanguage('fr')">fr</button>
+      <button (click)="useLanguage('en')">en</button>
       <ul class="nav navbar-nav navbar-right">
         <li routerLinkActive="active">
           <a routerLink="/missions">{{ 'Nav.FinishedMissions' | translate }}</a>

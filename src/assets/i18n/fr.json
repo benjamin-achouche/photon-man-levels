@@ -83,5 +83,47 @@
       "NuclearStrike": "Frappe Nucléaire TactiqueDesc",
       "SuperCamouflage": "Camouflage IndétectableDesc"
     }
+  },
+  "Level": {
+    "Level": "Niveau",
+    "Description": {
+      "GeneralUpgrades": {
+        "Vie": "Le Photon Man a actuellement {{ value }} points de vie.",
+        "Bouclier": "Le Photon Man a actuellement {{ value }} points de bouclier.",
+        "Energie": "Le Photon Man a actuellement {{ value }} points d'énergie.",
+        "RegenVie": "Le Photon Man a actuellement une régénération de {{ value }} points de vie par seconde.",
+        "RegenBouclier": "Le Photon Man a actuellement une régénération de {{ value }} points de bouclier par seconde, et son délai de régénération est de {{ cooldown }} secondes.",
+        "RegenEnergie": "Le Photon Man a actuellement une régénération de {{ value }} points d'énergie par seconde.",
+        "Armure": "Le Photon Man a actuellement {{ value }} points d'armure.",
+        "ArmureBouclier": "Le Photon Man a actuellement {{ value }} points d'armure bouclier.",
+        "Vitesse": "Le Photon Man a actuellement une vitesse de déplacement {{ value }}.",
+        "Revive": "Il faut {{ value }} minutes au Photon Man pour revenir sur le champ de bataille.",
+        "ModeSwap": "Il faut {{ value }} secondes au Photon Man pour changer d'équipement.",
+        "Camouflage": "CamouflageLevelDescription"
+      },
+      "LaserTrooperUpgrades": {
+        "Degats": "Le fusil laser du Photon Man fait actuellement {{ value }} points de dégâts.",
+        "Portee": "Le fusil laser du Photon Man a actuellement {{ range }} de portée.",
+        "AttackSpeed": "Le fusil laser du Photon Man a actuellement une vitesse d'attaque de {{ value }}.",
+        "TirCharge": "Le tir chargé fait actuellement {{ damagePrimary }} points de dégâts, et coûte {{ energyCost }} points d'énergie.",
+        "G4Charges": "{{ special }}",
+        "EMPX71": "Balle IEM X-71LevelDescription",
+        "BouclierPsi": "Bouclier RenforcéLevelDescription"
+      },
+      "NukeTrooperUpgrades": {
+        "Degats": "Le canon laser du Photon Man fait actuellement {{ value }} points de dégâts de zone (+{{ value }} contre bâtiments).",
+        "Portee": "Le canon laser du Photon Man a actuellement {{ range }} de portée.",
+        "AttackSpeed": "Le canon laser du Photon Man a actuellement une vitesse d'attaque de {{ value }}.",
+        "MagazineSize": "Le canon laser peut actuellement emmagaziner {{ value }} charges de plasma.",
+        "AmmoCost": "Les charges du canon laser coûtent actuellement {{ value }} de minerai et {{ value }} de gaz vespène.",
+        "ReloadSpeed": "Il faut actuellement {{ value }} secondes pour recharger le canon laser.",
+        "FlashbangCharges": "Le Photon Man peut transporter jusqu'à {{ value }} grenades incapacitantes.",
+        "FlashbangDuration": "L'effet des grenades incapacitantes dure {{ duration }} secondes.",
+        "Teleport": "TéléportationLevelDescription",
+        "Oculus": "Visière OculusLevelDescription",
+        "NuclearStrike": "Frappe Nucléaire TactiqueLevelDescription",
+        "SuperCamouflage": "Camouflage IndétectableLevelDescription"
+      }
+    }
   }
 }

@@ -5,19 +5,19 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './mission-navigation.component.html',
 })
 export class MissionNavigationComponent implements OnInit {
-  missions: string[] = [
-    "Loomings",
-    "Rebel Yell",
-    "The Overmind",
-    "Enslavers",
-    "The Fall",
-    "The Stand",
-    "UED",
-    "Zerg 2",
-    "Enslavers: Dark Vengeance",
-    "Wings of Liberty",
-    "Heart of the Swarm",
-    "Legacy of the Void"
+  missions: any[] = [
+   {name: 'Loomings', path: 'loomings'},
+   {name: 'Rebel Yell', path: 'rebel-yell'},
+   {name: 'The Overmind', path: 'the-overmind'},
+   {name: 'Enslavers', path: 'enslavers'},
+   {name: 'The Fall', path: 'the-fall'},
+   {name: 'The Stand', path: 'the-stand'},
+   {name: 'UED', path: 'the-iron-fist'},
+   {name: 'Zerg 2', path: 'queen-of-blades'},
+   {name: 'Enslavers: Dark Vengeance', path: 'enslavers-dark-vengeance'},
+   {name: 'Wings of Liberty', path: 'wol'},
+   {name: 'Heart of the Swarm', path: 'hots'},
+   {name: 'Legacy of the Void', path: 'lotv'}
   ]
 
   ngOnInit(): void {

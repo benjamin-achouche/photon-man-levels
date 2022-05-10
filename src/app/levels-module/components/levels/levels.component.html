@@ -1,0 +1,26 @@
+<div class="page-PM level-list">
+  <div *ngFor="let upgrade of upgrades" class="level-item">
+    <h4 class="level-name">{{ upgrade.name | translate }}</h4>
+    <div class="level-infos-container">
+      <div class="level-infos">
+        <img [src]="upgrade.icon" [alt]="upgrade.name">
+        <p>{{ upgrade.description | translate }}</p>
+      </div>
+      <div class="level-up-infos">
+        <p>{{ upgrade.levelDescription | translate : {
+              'value': upgrade.values[upgrade.currentLevel].value,
+              'energyCost': upgrade.values[upgrade.currentLevel].energyCost,
+              'range': upgrade.values[upgrade.currentLevel].range,
+              'visibility': upgrade.values[upgrade.currentLevel].visibility,
+              'cooldown': upgrade.values[upgrade.currentLevel].cooldown,
+              'duration': upgrade.values[upgrade.currentLevel].duration,
+              'damagePrimary': upgrade.values[upgrade.currentLevel].damagePrimary,
+              'damageSecondary': upgrade.values[upgrade.currentLevel].damageSecondary,
+              'occurences': upgrade.values[upgrade.currentLevel].occurences,
+              'special': upgrade.values[upgrade.currentLevel].special
+            } }}</p>
+        <button *ngFor="let level of upgrade.ptsCosts; let i = index">{{ 'Level.Level' | translate }} {{ i }}</button>
+      </div>
+    </div>
+  </div>
+</div>

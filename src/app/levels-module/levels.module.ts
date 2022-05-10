@@ -2,38 +2,29 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { LevelsRoutingModule } from './levels-routing.module';
-import { LevelsGeneralPageComponent } from './pages/levels-page/levels-general-page.component';
-import { LevelsLaserTrooperPageComponent } from './pages/levels-page/levels-laser-trooper-page.component';
-import { LevelsNukeTrooperPageComponent } from './pages/levels-page/levels-nuke-trooper-page.component';
-import { LevelGeneralComponent } from './components/level-general/level-general.component';
-import { LevelLaserTrooperComponent } from './components/level-laser-trooper/level-laser-trooper.component';
-import { LevelNukeTrooperComponent } from './components/level-nuke-trooper/level-nuke-trooper.component';
-import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { HttpLoaderFactory } from '../app.module';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LevelsComponent } from './components/levels/levels.component';
+import { TranslateModule } from '@ngx-translate/core';
 import { RouterModule } from '@angular/router';
+import { LevelsGeneralPageComponent } from './pages/levels-general-page/levels-general-page.component';
+import { LevelsLaserTrooperPageComponent } from './pages/levels-laser-trooper-page/levels-laser-trooper-page.component';
+import { LevelsNukeTrooperPageComponent } from './pages/levels-nuke-trooper-page/levels-nuke-trooper-page.component';
 
 
 @NgModule({
   declarations: [
-    LevelGeneralComponent,
-    LevelLaserTrooperComponent,
-    LevelNukeTrooperComponent,
+    LevelsComponent,
     LevelsGeneralPageComponent,
     LevelsLaserTrooperPageComponent,
     LevelsNukeTrooperPageComponent,
-    // TranslateModule.forChild({
-    //   loader: {
-    //     provide: TranslateLoader,
-    //     useFactory: HttpLoaderFactory,
-    //     deps: [HttpClient]
-    //   }
-    // })
   ],
   imports: [
     CommonModule,
     LevelsRoutingModule,
-    RouterModule
+    RouterModule,
+    TranslateModule.forChild({
+      extend: true,
+      isolate: false,
+    })
   ]
 })
 export class LevelsModule { }

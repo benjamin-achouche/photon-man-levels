@@ -14,6 +14,7 @@ import { AppBootstrapModule } from './shared-module/app-bootstrap/app-bootstrap.
 import { HomeModule } from './home-module/home.module';
 import { NavigationModule } from './navigation-module/navigation.module';
 import { RouterModule } from '@angular/router';
+import { MissionsModule } from './missions-module/missions.module';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { RouterModule } from '@angular/router';
     AppRoutingModule,
     AppBootstrapModule,
     HomeModule,
+    MissionsModule,
     NavigationModule,
     RouterModule,
     HttpClientModule,

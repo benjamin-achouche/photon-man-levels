@@ -9,7 +9,7 @@ export interface ILevel {
 }
 
 export interface IAbilityDetail {
-  value?: number;
+  value?: number | number[];
   energyCost?: number;
   range?: number;
   visibility?: number;
@@ -18,5 +18,6 @@ export interface IAbilityDetail {
   damagePrimary?: number;
   damageSecondary?: number;
   occurences?: number;
-  special?: string;
+  prerequisite?: string;
+  special?: string | string[];
 }
